@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rock-springboot-api" />
+        <module name="rock-springboot-rabbitmq" />
+        <module name="rock-springboot-test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rock-springboot-api" target="1.8" />
+      <module name="rock-springboot-integration" target="1.8" />
+      <module name="rock-springboot-rabbitmq" target="1.8" />
+      <module name="rock-springboot-test" target="1.8" />
+      <module name="rock-springboot-webapi" target="1.8" />
+      <module name="rock.springboot-rabbitmq" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

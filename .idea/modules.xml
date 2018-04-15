@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/rock-springboot-api/rock-springboot-api.iml" filepath="$PROJECT_DIR$/rock-springboot-api/rock-springboot-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rock-springboot-integration.iml" filepath="$PROJECT_DIR$/rock-springboot-integration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rock-springboot-rabbitmq/rock-springboot-rabbitmq.iml" filepath="$PROJECT_DIR$/rock-springboot-rabbitmq/rock-springboot-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rock-springboot-test/rock-springboot-test.iml" filepath="$PROJECT_DIR$/rock-springboot-test/rock-springboot-test.iml" />
+    </modules>
+  </component>
+</project>
