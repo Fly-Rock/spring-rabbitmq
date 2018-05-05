@@ -2,59 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be3d9f48-4a6b-465a-84ef-dafbe35859fb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-api/src/main/resources/application-develop.properties122" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-common/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-common/rock-springboot-common.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-common/src/main/java/rock/springboot/common/RockUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-common/src/main/java/rock/springboot/common/SnowflakeIdFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-common/src/main/java/rock/springboot/common/SnowflakeIdWorker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-common/src/main/java/rock/springboot/common/bo/MessageConver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-common/src/main/java/rock/springboot/common/bo/MessageFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-common/src/main/java/rock/springboot/common/bo/MessageProcess.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-dao/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-dao/rock-springboot-dao.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-service/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-service/rock-springboot-service.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-service/src/main/java/rock/springboot/service/product/IProductService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-service/src/main/java/rock/springboot/service/product/impl/ProductDescriptionBiz.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-service/src/main/java/rock/springboot/service/product/impl/ProductService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-service/src/main/java/rock/springboot/service/product/tes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-service/src/main/java/rock/springboot/service/tt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/rock-springboot-support.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/bo/BaseEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/bo/OAuthUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/bo/PackInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/bo/product/ProductContentBaseBo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/bo/product/ProductContentBo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/bo/product/ProductContentListRowTableBo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/bo/product/ProductDetailBannerBo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/bo/product/ProductDetailCompositiveBo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/bo/product/ProductDetailImageBo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/bo/product/ProductDetailReminderBo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/bo/product/ProductDetailTableBo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/bo/product/ProductTableRowBo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/dto/UserIdRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/dto/UserRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/dto/UserResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/dto/request/BaseUserRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/dto/request/product/ProductDetailReq.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/dto/request/test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/dto/response/DataResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/dto/response/product/ProductDetailResp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/dto/response/product/ProductTopBannerResp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/dto/response/tes1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/po/Product.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/po/ProductCategory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/po/ProductDescription.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/po/ProductPrice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/po/ProductUnitPrice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/po/UserInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/po/sys/SystemPermissionPO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/model/po/sys/UserModuleModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-support/src/main/java/rock/springboot/support/tt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rock-springboot-test/src/main/java/CommonTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rock-springboot-api/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/rock-springboot-api/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -118,7 +66,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="40">
               <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/rock-springboot-api/src/main/java/rock/springboot/api/RockSpringbootApiApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <marker date="1525488555946" expanded="false" signature="392:397" ph=" { " />
@@ -396,6 +346,98 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rock-springboot-integration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rock-springboot-integration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rock-springboot-common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rock-springboot-integration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rock-springboot-integration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rock-springboot-common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rock-springboot-integration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rock-springboot-integration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rock-springboot-common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rock-springboot-integration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rock-springboot-integration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rock-springboot-common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rock" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1278,7 +1320,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39224000" />
+    <option name="totallyTimeSpent" value="39285000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1313,8 +1355,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49253732" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6032338" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29756796" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6032338" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29756796" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1701,7 +1743,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1710,11 +1754,11 @@
         <state relative-caret-position="-901">
           <caret line="37" column="55" lean-forward="false" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3620#3621#0" expanded="true" />
-            <element signature="e#3666#3667#0" expanded="true" />
-            <element signature="e#3832#3833#0" expanded="true" />
-            <element signature="e#3878#3879#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3620#3621#0" expanded="false" />
+            <element signature="e#3666#3667#0" expanded="false" />
+            <element signature="e#3832#3833#0" expanded="false" />
+            <element signature="e#3878#3879#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1762,7 +1806,7 @@
     <entry file="file://$PROJECT_DIR$/rock-springboot-api/src/main/java/rock/springboot/api/RockSpringbootApiApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1525488555946" expanded="false" signature="392:397" ph=" { " />
