@@ -96,6 +96,11 @@
             <artifactId>spring-boot-test</artifactId>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>rock.springboot.integration</groupId>
+            <artifactId>rock-springboot-integration</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 

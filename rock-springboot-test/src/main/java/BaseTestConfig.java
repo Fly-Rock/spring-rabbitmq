@@ -38,7 +38,7 @@ import rock.springboot.api.RockSpringbootApiApplication;
 @EnableAutoConfiguration(exclude = {
 })
 @ComponentScan(
-        basePackages = {"rock.springboot"},
+        basePackages = {"rock.springboot","springeventbus"},
         excludeFilters = {
                 @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, classes = {RockSpringbootApiApplication.class}),
                 @ComponentScan.Filter(type = FilterType.REGEX, pattern = "rock.springboot.test.*")//测试环境配置等排除
