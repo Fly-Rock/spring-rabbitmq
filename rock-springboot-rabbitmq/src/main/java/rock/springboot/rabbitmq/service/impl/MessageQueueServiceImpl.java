@@ -19,6 +19,7 @@ import rock.springboot.rabbitmq.sendmessage.SendOrderStatisticsMessage;
 import rock.springboot.rabbitmq.sendmessage.SendUserUpdateMessage;
 import rock.springboot.rabbitmq.sendmessage.SendWeChatNotifyMessage;
 import rock.springboot.rabbitmq.service.MessageQueueService;
+import sun.rmi.runtime.Log;
 
 
 import java.net.InetAddress;
@@ -75,7 +76,7 @@ public class MessageQueueServiceImpl implements MessageQueueService {
         MqMessage<SendOrderStatisticsMessage> message = new MqMessage<>();
         message.setMessageBody(messageBody);//设置消息body
         message.setMessageHeader(this.getMessageHeader(messageTypeName));//设置消息header
-        this.publishDirectMessage(message,"rock.orderStatisticsEvented",
+        this.publishDirectMessage(message, "rock.orderStatisticsEvented",
                 SendOrderStatisticsMessage.class.toString());
     }
 
@@ -84,11 +85,21 @@ public class MessageQueueServiceImpl implements MessageQueueService {
         MqMessage<SendOrderDoneMessage> message = new MqMessage<>();
         message.setMessageBody(messageBody);//设置消息body
         message.setMessageHeader(this.getMessageHeader(messageTypeName));//设置消息header
-        this.publishMessage(message,routingKey,
+        this.publishMessage(message, routingKey,
                 SendOrderStatisticsMessage.class.toString());
     }
 
+    public void publishDelayMessage() {
+
+       // template.convertAndSend()
+
+    }
+
     private void publishBaseMessage(MqMessageBase message, String exchange, String routingKey, String produceId) {
+        publishBaseMessage(message, exchange, routingKey, produceId, null);
+    }
+
+    private void publishBaseMessage(MqMessageBase message, String exchange, String routingKey, String produceId, Long expiration) {
 
         /**持久化*/
         Boolean persistenceStatus = this.persistence(produceId, message);
@@ -101,6 +112,9 @@ public class MessageQueueServiceImpl implements MessageQueueService {
         template.convertAndSend(exchange, routingKey, message, amqpMessage -> {
             // clear
             amqpMessage.getMessageProperties().getHeaders().clear();
+            if (expiration != null) {
+                amqpMessage.getMessageProperties().setExpiration(expiration.toString());
+            }
 
             amqpMessage.getMessageProperties().setHeader("MachineName", System.getenv("COMPUTERNAME"));
             SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
@@ -120,9 +134,11 @@ public class MessageQueueServiceImpl implements MessageQueueService {
         log.info(String.format("mq basemessage:\n%1s",
                 JSON.toJSONString(message, SerializerFeature.WriteDateUseDateFormat)));
     }
+
     private void publishUserMessage(MqMessageBase message, String routingKey, String produceId) {
         publishBaseMessage(message, "rock.user.fanout.ex", routingKey, produceId);
     }
+
     private void publishDirectMessage(MqMessageBase message, String routingKey, String produceId) {
         publishBaseMessage(message, "amq.direct", routingKey, produceId);
     }
